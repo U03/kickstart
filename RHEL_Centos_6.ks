@@ -4,7 +4,7 @@
 install
 cdrom
 lang en_US.UTF-8
-keyboard us
+keyboard fr
 network --onboot yes --device eth0 --bootproto static --ip 192.168.1.214 --netmask 255.255.255.0 --nameserver 8.8.8.8 --gateway 192.168.1.1 --noipv6 --hostname ansible0
 rootpw  --iscrypted $6$F9BYjkRdcwoYRmxk$uQ3zIqZ5QxeTN4.W3Ic/xY91VP3uZSl1tdZzOzt3uZH/47t.2C0aJFa1wDXFHmhzGSWP0jKcVbHp481QoyAX90
 firewall --service=ssh
